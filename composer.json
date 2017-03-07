@@ -1,0 +1,18 @@
+{
+    "name": "mikalai/nginx",
+    "description": "nginx automate mangement",
+    "authors": [
+        {
+            "name": "mikalai-b",
+            "email": "mikalai.bahdanau@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }        
+    }
+}
